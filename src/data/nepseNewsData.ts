@@ -484,7 +484,7 @@ export function getNewsReportsForStock(stock: StockFundamental): NewsPortalRepor
       category: 'Earnings & Financials',
       impactWeight: 'HIGH',
       trajectoryImpactNote: `Valuation discount versus sector peers provides a margin of safety and upward re-rating potential toward NPR ${(p * 1.08).toFixed(1)}.`,
-      tags: [`#${sym}`, `#ShareSansar`, `#${stock.sector.replace(/\s+/g, '')}`, `#Valuation`]
+      tags: [`#${sym}`, `#ShareSansar`, `#${(stock?.sector || '').replace(/\s+/g, '')}`, `#Valuation`]
     },
 
     // 2. Merolagani
