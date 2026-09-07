@@ -56,45 +56,52 @@ async function safeApiCall<T>(promiseCall: Promise<T>, fallbackValue: T, timeout
   }
 }
 
-// Helper: Technical Analysis Summary String Generator
-function generateDeterministicTechnicalText(stock: any, indicators: any): string {
+// Helper: Technical Structured Report Generator
+function buildTechnicalPayload(stock: any, indicators: any, customText?: string) {
   const symbol = String(stock?.symbol || 'UNKNOWN');
   const price = Number(stock?.currentPrice || indicators?.price || 0);
-  const rsi = indicators?.rsi14 ?? 50;
-  const ma = indicators?.ma || {};
+  const change = Number(stock?.change || 0);
+  const changePercent = Number(stock?.changePercent || 0);
+  const rsi = Number(indicators?.rsi14 ?? 50);
 
-  let bullishSignals = 0;
-  let bearishSignals = 0;
-
-  const ma50Val = ma.ema50 || ma.sma50;
-  const ma200Val = ma.ema200 || ma.sma200;
-  if (ma50Val && price > ma50Val) bullishSignals += 2; else if (ma50Val) bearishSignals += 2;
-  if (ma200Val && price > ma200Val) bullishSignals += 2.5; else if (ma200Val) bearishSignals += 2.5;
-  if (rsi < 35) bullishSignals += 2;
-  else if (rsi > 70) bearishSignals += 2;
-  else if (rsi >= 50) bullishSignals += 1;
-  else bearishSignals += 1;
-
-  const total = bullishSignals + bearishSignals;
-  const netScore = total > 0 ? Math.round(((bullishSignals - bearishSignals) / total) * 100) : 0;
   let marketBias = 'NEUTRAL';
+  if (rsi > 60) marketBias = 'BULLISH';
+  else if (rsi < 40) marketBias = 'BEARISH';
 
-  if (netScore >= 40) marketBias = 'STRONG BULLISH';
-  else if (netScore >= 15) marketBias = 'BULLISH';
-  else if (netScore <= -40) marketBias = 'STRONG BEARISH';
-  else if (netScore <= -15) marketBias = 'BEARISH';
+  const defaultSummary = `Technical analysis for ${symbol} indicates a ${marketBias} market structure with RSI at ${rsi.toFixed(1)} and current trading price of NPR ${price.toFixed(2)}.`;
 
-  return `Technical Summary for ${symbol}: Trading at NPR ${price.toFixed(2)}. The overall market sentiment displays a ${marketBias} trajectory based on moving averages and an RSI value of ${Number(rsi).toFixed(1)}.`;
+  return {
+    symbol,
+    marketBias,
+    currentPrice: price,
+    change,
+    changePercent,
+    rsi,
+    summary: customText || defaultSummary,
+    text: customText || defaultSummary,
+    timestamp: new Date().toISOString()
+  };
 }
 
-// Helper: Trajectory String Generator
-function generateDeterministicTrajectoryText(stock: any): string {
+// Helper: Trajectory Structured Report Generator
+function buildTrajectoryPayload(stock: any, indicators: any, customText?: string) {
   const symbol = String(stock?.symbol || 'UNKNOWN');
   const price = Number(stock?.currentPrice || 0);
-  const changePct = Number(stock?.changePercent || 0);
-  const direction = changePct >= 0 ? 'upward' : 'downward';
+  const changePercent = Number(stock?.changePercent || 0);
+  const marketBias = changePercent >= 0 ? 'BULLISH' : 'BEARISH';
 
-  return `Price Trajectory for ${symbol}: Currently trading at NPR ${price.toFixed(2)} with a recent ${direction} momentum shift of ${changePct.toFixed(2)}%. Near-term trajectory shows consolidation within its current support and resistance ranges.`;
+  const defaultTrajectory = `Price trajectory for ${symbol} signals a ${marketBias} consolidation around NPR ${price.toFixed(2)}. Key levels remain defined by recent trading bounds.`;
+
+  return {
+    symbol,
+    marketBias,
+    currentPrice: price,
+    changePercent,
+    trajectory: customText || defaultTrajectory,
+    summary: customText || defaultTrajectory,
+    text: customText || defaultTrajectory,
+    timestamp: new Date().toISOString()
+  };
 }
 
 // API: Gemini Technical Summary Route
@@ -104,8 +111,8 @@ app.post('/api/gemini/technical-summary', async (req, res) => {
   try {
     const client = getGeminiClient();
     if (!client) {
-      const textSummary = generateDeterministicTechnicalText(stock, indicators);
-      return res.json({ success: true, data: textSummary, text: textSummary, summary: textSummary, source: 'deterministic_fallback' });
+      const payload = buildTechnicalPayload(stock, indicators);
+      return res.json({ success: true, data: payload, ...payload, source: 'deterministic_fallback' });
     }
 
     const response = await client.models.generateContent({
@@ -113,11 +120,11 @@ app.post('/api/gemini/technical-summary', async (req, res) => {
       contents: `Provide a concise 2-sentence technical summary for NEPSE stock ${stock?.symbol || 'Symbol'} trading at NPR ${stock?.currentPrice || 0}.`,
     });
 
-    const outputText = response.text || generateDeterministicTechnicalText(stock, indicators);
-    res.json({ success: true, data: outputText, text: outputText, summary: outputText, source: 'gemini_api' });
+    const payload = buildTechnicalPayload(stock, indicators, response.text);
+    res.json({ success: true, data: payload, ...payload, source: 'gemini_api' });
   } catch (err: any) {
-    const textSummary = generateDeterministicTechnicalText(stock, indicators);
-    res.json({ success: true, data: textSummary, text: textSummary, summary: textSummary, source: 'deterministic_fallback', error: err.message });
+    const payload = buildTechnicalPayload(stock, indicators);
+    res.json({ success: true, data: payload, ...payload, source: 'deterministic_fallback', error: err.message });
   }
 });
 
@@ -128,8 +135,8 @@ app.post('/api/gemini/price-trajectory', async (req, res) => {
   try {
     const client = getGeminiClient();
     if (!client) {
-      const textTrajectory = generateDeterministicTrajectoryText(stock);
-      return res.json({ success: true, data: textTrajectory, text: textTrajectory, trajectory: textTrajectory, source: 'deterministic_fallback' });
+      const payload = buildTrajectoryPayload(stock, indicators);
+      return res.json({ success: true, data: payload, ...payload, source: 'deterministic_fallback' });
     }
 
     const response = await client.models.generateContent({
@@ -137,11 +144,11 @@ app.post('/api/gemini/price-trajectory', async (req, res) => {
       contents: `Analyze the price trajectory forecast for NEPSE stock ${stock?.symbol || 'Symbol'} currently priced at NPR ${stock?.currentPrice || 0} in 2 sentences.`,
     });
 
-    const outputText = response.text || generateDeterministicTrajectoryText(stock);
-    res.json({ success: true, data: outputText, text: outputText, trajectory: outputText, source: 'gemini_api' });
+    const payload = buildTrajectoryPayload(stock, indicators, response.text);
+    res.json({ success: true, data: payload, ...payload, source: 'gemini_api' });
   } catch (err: any) {
-    const textTrajectory = generateDeterministicTrajectoryText(stock);
-    res.json({ success: true, data: textTrajectory, text: textTrajectory, trajectory: textTrajectory, source: 'deterministic_fallback', error: err.message });
+    const payload = buildTrajectoryPayload(stock, indicators);
+    res.json({ success: true, data: payload, ...payload, source: 'deterministic_fallback', error: err.message });
   }
 });
 
