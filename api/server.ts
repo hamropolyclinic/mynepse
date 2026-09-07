@@ -3,10 +3,10 @@ import path from 'path';
 import { createServer as createViteServer } from 'vite';
 import { Nepse } from '@rumess/nepse-api';
 import { GoogleGenAI } from '@google/genai';
-import { SHAREBAZAAR_DIVIDENDS, getShareBazaarDividend, calculateLiveDividendYield } from './src/data/sharebazaarDividendData';
-import { getNewsReportsForStock, computeMarketSentimentMetrics, generateTriFactorTrajectorySynthesis } from './src/data/nepseNewsData';
-import { getStockBySymbol } from './src/data/nepseStocks';
-import { TriFactorTrajectorySynthesis } from './src/types/nepse';
+import { SHAREBAZAAR_DIVIDENDS, getShareBazaarDividend, calculateLiveDividendYield } from '../src/data/sharebazaarDividendData';
+import { getNewsReportsForStock, computeMarketSentimentMetrics, generateTriFactorTrajectorySynthesis } from '../src/data/nepseNewsData';
+import { getStockBySymbol } from '../src/data/nepseStocks';
+import { TriFactorTrajectorySynthesis } from '../src/types/nepse';
 
 const app = express();
 const PORT = 3000;
