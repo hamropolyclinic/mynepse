@@ -29,6 +29,8 @@ let cachedCompanies: any[] = [];
 let lastCompaniesFetch = 0;
 let cachedIndices: any = null;
 let lastIndicesFetch = 0;
+let cachedAllStocksData: any = null;
+let lastAllStocksFetch = 0;
 const stockDetailsCache = new Map<string, { data: any; timestamp: number }>();
 const stockHistoryCache = new Map<string, { data: any[]; timestamp: number }>();
 
@@ -56,78 +58,7 @@ async function safeApiCall<T>(promiseCall: Promise<T>, fallbackValue: T, timeout
   }
 }
 
-// Helper: Technical Analysis Engine Fallback
-function generateDeterministicTechnicalReport(stock: any, indicators: any): any {
-  const symbol = stock?.symbol || 'UNKNOWN';
-  const price = Number(stock?.currentPrice || indicators?.price || 0);
-  const change = Number(stock?.change || indicators?.change || 0);
-  const changePct = Number(stock?.changePercent || indicators?.changePercent || 0);
-  const rsi = indicators?.rsi14;
-  const macd = indicators?.macd;
-  const ma = indicators?.ma || {};
-
-  let bullishSignals = 0;
-  let bearishSignals = 0;
-
-  const ma50Val = ma.ema50 || ma.sma50;
-  const ma200Val = ma.ema200 || ma.sma200;
-  if (ma50Val && price > ma50Val) bullishSignals += 2; else if (ma50Val) bearishSignals += 2;
-  if (ma200Val && price > ma200Val) bullishSignals += 2.5; else if (ma200Val) bearishSignals += 2.5;
-  if (rsi !== undefined) {
-    if (rsi < 35) bullishSignals += 2;
-    else if (rsi > 70) bearishSignals += 2;
-    else if (rsi >= 50) bullishSignals += 1;
-    else bearishSignals += 1;
-  }
-  if (macd?.macd !== undefined && macd?.signal !== undefined) {
-    if (macd.macd > macd.signal) bullishSignals += 2; else bearishSignals += 2;
-  }
-
-  const total = bullishSignals + bearishSignals;
-  const netScore = total > 0 ? Math.round(((bullishSignals - bearishSignals) / total) * 100) : 0;
-  let marketBias = 'NEUTRAL';
-
-  if (netScore >= 40) marketBias = 'STRONG_BULLISH';
-  else if (netScore >= 15) marketBias = 'BULLISH';
-  else if (netScore <= -40) marketBias = 'STRONG_BEARISH';
-  else if (netScore <= -15) marketBias = 'BEARISH';
-
-  return {
-    symbol,
-    marketBias,
-    currentPrice: price,
-    change,
-    changePercent: changePct,
-    rsi: rsi || 50,
-    summary: `Technical analysis for ${symbol} indicates a ${marketBias.replace('_', ' ')} sentiment based on recent moving average and momentum indicators.`,
-    timestamp: new Date().toISOString()
-  };
-}
-
-// API: Gemini Technical Summary Route
-app.post('/api/gemini/technical-summary', async (req, res) => {
-  const { stock, indicators, recentCandles } = req.body || {};
-  
-  try {
-    const client = getGeminiClient();
-    if (!client) {
-      const fallbackReport = generateDeterministicTechnicalReport(stock, indicators);
-      return res.json({ success: true, data: fallbackReport, source: 'deterministic_fallback' });
-    }
-
-    const response = await client.models.generateContent({
-      model: 'gemini-2.5-flash',
-      contents: `Provide a concise technical analysis summary for NEPSE stock ${stock?.symbol || 'Symbol'} trading at NPR ${stock?.currentPrice || 0}.`,
-    });
-
-    res.json({ success: true, data: response.text, source: 'gemini_api' });
-  } catch (err: any) {
-    const fallbackReport = generateDeterministicTechnicalReport(stock, indicators);
-    res.json({ success: true, data: fallbackReport, source: 'deterministic_fallback', error: err.message });
-  }
-});
-
-// API: Historical OHLC candles
+// API: Pull historical OHLC candles
 app.get('/api/nepse/history/:symbol', async (req, res) => {
   const symbol = req.params.symbol.toUpperCase();
   const now = Date.now();
@@ -176,7 +107,7 @@ app.get('/api/nepse/history/:symbol', async (req, res) => {
   }
 });
 
-// API: Companies
+// API: Pull all listed companies
 app.get('/api/nepse/companies', async (req, res) => {
   try {
     const now = Date.now();
@@ -196,7 +127,7 @@ app.get('/api/nepse/companies', async (req, res) => {
   }
 });
 
-// API: Indices
+// API: Pull live NEPSE indices
 app.get('/api/nepse/indices', async (req, res) => {
   try {
     const now = Date.now();
@@ -217,7 +148,7 @@ app.get('/api/nepse/indices', async (req, res) => {
   }
 });
 
-// API: Summary
+// API: Pull market summary
 app.get('/api/nepse/summary', async (req, res) => {
   try {
     const summary = await safeApiCall(nepseClient.getMarketSummary(), null, 3500);
@@ -227,7 +158,7 @@ app.get('/api/nepse/summary', async (req, res) => {
   }
 });
 
-// API: Security details
+// API: Pull single security details
 app.get('/api/nepse/security/:symbol', async (req, res) => {
   const symbol = req.params.symbol.toUpperCase();
   const now = Date.now();
@@ -249,7 +180,7 @@ app.get('/api/nepse/security/:symbol', async (req, res) => {
   }
 });
 
-// API: News reports
+// API: News report endpoint route handling
 app.get('/api/news/reports/:symbol', (req, res) => {
   const symbol = req.params.symbol.toUpperCase();
   res.json({
@@ -261,7 +192,7 @@ app.get('/api/news/reports/:symbol', (req, res) => {
   });
 });
 
-// API: Live prices
+// API: Live price feeds with timeout wrapper
 app.get('/api/nepse/live-prices', async (req, res) => {
   try {
     const fetchPrices = async () => {
@@ -284,7 +215,7 @@ app.get('/api/nepse/live-prices', async (req, res) => {
   }
 });
 
-// Global Express Error Handler
+// Global Express Error Handler to prevent Vercel 500 HTML response pages
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
   console.error('[SERVER ERROR]', err);
   res.status(200).json({
