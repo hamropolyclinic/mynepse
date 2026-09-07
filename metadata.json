@@ -1,0 +1,6 @@
+{
+  "name": "NEPSE Analytics & Technical Dashboard",
+  "description": "Interactive NEPSE stock analytics dashboard with historical OHLC candlesticks, technical indicators (RSI, MACD, Moving Averages), fundamental metrics (P/E, EPS, BVPS), and complete Python Streamlit & Plotly script exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

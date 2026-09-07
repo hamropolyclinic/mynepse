@@ -1,0 +1,1926 @@
+{
+  "CHCL": {
+    "symbol": "CHCL",
+    "success": true,
+    "ltp": 370.2,
+    "ticker_name": "Chilime Hydropower",
+    "latest": {
+      "ticker": "CHCL",
+      "fiscal_year": "2081/82",
+      "cash": 4,
+      "bonus": 8,
+      "bookclose": "2026-01-01 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2081/82",
+        "cash": 4,
+        "bonus": 8,
+        "bookclose": "2026-01-01 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2080/81",
+        "cash": 2,
+        "bonus": 10,
+        "bookclose": "2024-12-31 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2079/80",
+        "cash": 5,
+        "bonus": 10,
+        "bookclose": "2023-12-24 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2078/79",
+        "cash": 7.5,
+        "bonus": 7.5,
+        "bookclose": "2022-12-18 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2077/78",
+        "cash": 7.5,
+        "bonus": 7.5,
+        "bookclose": "2021-12-30 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2076/77",
+        "cash": 10,
+        "bonus": 10,
+        "bookclose": "2020-12-14 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2075/76",
+        "cash": 5,
+        "bonus": 20,
+        "bookclose": "2019-11-13 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2074/75",
+        "cash": 5,
+        "bonus": 20,
+        "bookclose": "2019-01-03 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2073/74",
+        "cash": 10,
+        "bonus": 15,
+        "bookclose": "2017-10-23 00:00:00"
+      },
+      {
+        "ticker": "CHCL",
+        "fiscal_year": "2072/73",
+        "cash": 10,
+        "bonus": 10,
+        "bookclose": "2016-12-26 00:00:00"
+      }
+    ]
+  },
+  "NABIL": {
+    "symbol": "NABIL",
+    "success": true,
+    "ltp": 539,
+    "ticker_name": "Nabil Bank",
+    "latest": {
+      "ticker": "NABIL",
+      "fiscal_year": "2081/82",
+      "cash": 12.5,
+      "bonus": 0,
+      "bookclose": "2025-12-31 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2081/82",
+        "cash": 12.5,
+        "bonus": 0,
+        "bookclose": "2025-12-31 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2080/81",
+        "cash": 10,
+        "bonus": 0,
+        "bookclose": "2024-11-25 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2079/80",
+        "cash": 11,
+        "bonus": 0,
+        "bookclose": "2023-12-15 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2078/79",
+        "cash": 11.5,
+        "bonus": 18.5,
+        "bookclose": "2023-01-02 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2077/78",
+        "cash": 4.4,
+        "bonus": 33.6,
+        "bookclose": "2021-12-31 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2076/77",
+        "cash": 1.76,
+        "bonus": 33.5,
+        "bookclose": "2020-12-30 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2075/76",
+        "cash": 22,
+        "bonus": 12,
+        "bookclose": "2019-12-24 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2074/75",
+        "cash": 22,
+        "bonus": 12,
+        "bookclose": "2019-02-26 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2073/74",
+        "cash": 18,
+        "bonus": 30,
+        "bookclose": "2017-09-12 00:00:00"
+      },
+      {
+        "ticker": "NABIL",
+        "fiscal_year": "2072/73",
+        "cash": 15,
+        "bonus": 30,
+        "bookclose": "2016-09-21 00:00:00"
+      }
+    ]
+  },
+  "NICA": {
+    "symbol": "NICA",
+    "success": true,
+    "ltp": 309.5,
+    "ticker_name": "NIC Asia Bank",
+    "latest": {
+      "ticker": "NICA",
+      "fiscal_year": "2079/80",
+      "cash": 1.5263,
+      "bonus": 29,
+      "bookclose": "2023-10-03 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2079/80",
+        "cash": 1.5263,
+        "bonus": 29,
+        "bookclose": "2023-10-03 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2076/77",
+        "cash": 1,
+        "bonus": 19,
+        "bookclose": "2020-11-25 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2075/76",
+        "cash": 11.0526,
+        "bonus": 10,
+        "bookclose": "2019-09-15 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2074/75",
+        "cash": 0.526,
+        "bonus": 10,
+        "bookclose": "2018-12-05 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2073/74",
+        "cash": 1.05,
+        "bonus": 20,
+        "bookclose": "2017-09-01 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2072/73",
+        "cash": 1.37,
+        "bonus": 26,
+        "bookclose": "2016-09-21 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2071/72",
+        "cash": 2.05,
+        "bonus": 39,
+        "bookclose": "2016-01-10 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2070/71",
+        "cash": 15,
+        "bonus": 15,
+        "bookclose": "2014-12-15 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2069/70",
+        "cash": 20,
+        "bonus": 0,
+        "bookclose": "2014-02-05 00:00:00"
+      },
+      {
+        "ticker": "NICA",
+        "fiscal_year": "2068/69",
+        "cash": 25,
+        "bonus": 0,
+        "bookclose": "2012-06-29 00:00:00"
+      }
+    ]
+  },
+  "HIDCL": {
+    "symbol": "HIDCL",
+    "success": true,
+    "ltp": 239,
+    "ticker_name": "Hydroelectricity Investment and Development Company",
+    "latest": {
+      "ticker": "HIDCL",
+      "fiscal_year": "2081/82",
+      "cash": 2,
+      "bonus": 1.5,
+      "bookclose": "2025-12-23 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2081/82",
+        "cash": 2,
+        "bonus": 1.5,
+        "bookclose": "2025-12-23 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2080/81",
+        "cash": 5.25,
+        "bonus": 0,
+        "bookclose": "2024-12-27 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2079/80",
+        "cash": 5.263,
+        "bonus": 0,
+        "bookclose": "2024-01-03 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2078/79",
+        "cash": 0.263,
+        "bonus": 5,
+        "bookclose": "2022-12-29 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2077/78",
+        "cash": 0.421,
+        "bonus": 8,
+        "bookclose": "2021-12-20 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2075/76",
+        "cash": 12,
+        "bonus": 0,
+        "bookclose": "2020-01-02 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2074/75",
+        "cash": 0.21,
+        "bonus": 10,
+        "bookclose": "2019-01-01 00:00:00"
+      },
+      {
+        "ticker": "HIDCL",
+        "fiscal_year": "2073/74",
+        "cash": 5,
+        "bonus": 0,
+        "bookclose": "2017-12-27 00:00:00"
+      }
+    ]
+  },
+  "SHIVM": {
+    "symbol": "SHIVM",
+    "success": true,
+    "ltp": 661,
+    "ticker_name": "Shivam Cements Ltd",
+    "latest": {
+      "ticker": "SHIVM",
+      "fiscal_year": "2081/82",
+      "cash": 10,
+      "bonus": 2.5,
+      "bookclose": "2025-11-27 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2081/82",
+        "cash": 10,
+        "bonus": 2.5,
+        "bookclose": "2025-11-27 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2080/81",
+        "cash": 0.45,
+        "bonus": 8.55,
+        "bookclose": "2025-01-01 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2079/80",
+        "cash": 0.75,
+        "bonus": 14.25,
+        "bookclose": "2024-01-04 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2078/79",
+        "cash": 10.53,
+        "bonus": 0,
+        "bookclose": "2023-01-04 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2077/78",
+        "cash": 29,
+        "bonus": 0,
+        "bookclose": "2021-10-25 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2076/77",
+        "cash": 24.21,
+        "bonus": 0,
+        "bookclose": "2020-10-29 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2075/76",
+        "cash": 15.7895,
+        "bonus": 0,
+        "bookclose": "2019-10-16 00:00:00"
+      },
+      {
+        "ticker": "SHIVM",
+        "fiscal_year": "2074/75",
+        "cash": 15.7895,
+        "bonus": 0,
+        "bookclose": "2019-04-09 00:00:00"
+      }
+    ]
+  },
+  "LEC": {
+    "symbol": "LEC",
+    "success": true,
+    "ltp": 210,
+    "ticker_name": "Liberty Energy Company Limited",
+    "latest": null,
+    "history": []
+  },
+  "CIT": {
+    "symbol": "CIT",
+    "success": true,
+    "ltp": 1719.9,
+    "ticker_name": "Citizen Investment Trust",
+    "latest": {
+      "ticker": "CIT",
+      "fiscal_year": "2081/82",
+      "cash": 8,
+      "bonus": 5,
+      "bookclose": "2026-01-05 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2081/82",
+        "cash": 8,
+        "bonus": 5,
+        "bookclose": "2026-01-05 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2080/81",
+        "cash": 6,
+        "bonus": 7,
+        "bookclose": "2025-01-06 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2079/80",
+        "cash": 0.7368,
+        "bonus": 14,
+        "bookclose": "2024-07-04 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2078/79",
+        "cash": 1.3158,
+        "bonus": 25,
+        "bookclose": "2023-07-04 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2077/78",
+        "cash": 1.578,
+        "bonus": 30,
+        "bookclose": "2022-08-10 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2076/77",
+        "cash": 8.8947,
+        "bonus": 9,
+        "bookclose": "2021-06-22 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2075/76",
+        "cash": 1.16,
+        "bonus": 22,
+        "bookclose": "2020-06-24 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2074/75",
+        "cash": 1.16,
+        "bonus": 22,
+        "bookclose": "2019-09-05 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2073/74",
+        "cash": 1.16,
+        "bonus": 22.06,
+        "bookclose": "2018-12-02 00:00:00"
+      },
+      {
+        "ticker": "CIT",
+        "fiscal_year": "2072/73",
+        "cash": 1.15,
+        "bonus": 22,
+        "bookclose": "2018-04-05 00:00:00"
+      }
+    ]
+  },
+  "AHPC": {
+    "symbol": "AHPC",
+    "success": true,
+    "ltp": 248.2,
+    "ticker_name": "Arun Valley Hydropower Development",
+    "latest": {
+      "ticker": "AHPC",
+      "fiscal_year": "2081/82",
+      "cash": 0.263,
+      "bonus": 5,
+      "bookclose": "2026-01-02 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2081/82",
+        "cash": 0.263,
+        "bonus": 5,
+        "bookclose": "2026-01-02 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2080/81",
+        "cash": 0.157,
+        "bonus": 3,
+        "bookclose": "2024-10-21 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2078/79",
+        "cash": 0.421,
+        "bonus": 8,
+        "bookclose": "2023-02-01 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2077/78",
+        "cash": 0.526,
+        "bonus": 10,
+        "bookclose": "2021-09-27 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2076/77",
+        "cash": 0.263,
+        "bonus": 5,
+        "bookclose": "2020-12-11 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2075/76",
+        "cash": 0.37,
+        "bonus": 7,
+        "bookclose": "2019-12-26 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2073/74",
+        "cash": 0.526,
+        "bonus": 10,
+        "bookclose": "2017-08-25 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2072/73",
+        "cash": 0.53,
+        "bonus": 10,
+        "bookclose": "2016-08-15 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2071/72",
+        "cash": 11,
+        "bonus": 0,
+        "bookclose": "2015-08-27 00:00:00"
+      },
+      {
+        "ticker": "AHPC",
+        "fiscal_year": "2070/71",
+        "cash": 0.53,
+        "bonus": 10,
+        "bookclose": "2014-08-22 00:00:00"
+      }
+    ]
+  },
+  "UPPER": {
+    "symbol": "UPPER",
+    "success": true,
+    "ltp": 182,
+    "ticker_name": "Upper Tamakoshi Hydropower Ltd",
+    "latest": null,
+    "history": []
+  },
+  "GBIME": {
+    "symbol": "GBIME",
+    "success": true,
+    "ltp": 250,
+    "ticker_name": "Global Ime Bank",
+    "latest": {
+      "ticker": "GBIME",
+      "fiscal_year": "2081/82",
+      "cash": 8,
+      "bonus": 0,
+      "bookclose": "2025-11-02 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2081/82",
+        "cash": 8,
+        "bonus": 0,
+        "bookclose": "2025-11-02 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2080/81",
+        "cash": 0,
+        "bonus": 5.5,
+        "bookclose": "2024-11-24 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2079/80",
+        "cash": 8,
+        "bonus": 1,
+        "bookclose": "2023-11-29 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2078/79",
+        "cash": 10.6,
+        "bonus": 3,
+        "bookclose": "2022-11-23 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2075/76",
+        "cash": 12.75,
+        "bonus": 12.75,
+        "bookclose": "2019-11-07 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2077/78",
+        "cash": 3.5,
+        "bonus": 10,
+        "bookclose": "2021-11-29 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2076/77",
+        "cash": 2,
+        "bonus": 14,
+        "bookclose": "2020-12-30 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2074/75",
+        "cash": 0,
+        "bonus": 16,
+        "bookclose": "2018-12-28 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2073/74",
+        "cash": 10,
+        "bonus": 10,
+        "bookclose": "2017-10-25 00:00:00"
+      },
+      {
+        "ticker": "GBIME",
+        "fiscal_year": "2072/73",
+        "cash": 0,
+        "bonus": 16,
+        "bookclose": "2017-03-20 00:00:00"
+      }
+    ]
+  },
+  "HDL": {
+    "symbol": "HDL",
+    "success": true,
+    "ltp": 1170.3,
+    "ticker_name": "Himalayan Distillery",
+    "latest": {
+      "ticker": "HDL",
+      "fiscal_year": "2081/82",
+      "cash": 5,
+      "bonus": 20,
+      "bookclose": "2025-11-06 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2081/82",
+        "cash": 5,
+        "bonus": 20,
+        "bookclose": "2025-11-06 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2080/81",
+        "cash": 5,
+        "bonus": 15,
+        "bookclose": "2025-01-03 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2079/80",
+        "cash": 15,
+        "bonus": 10,
+        "bookclose": "2023-12-29 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2078/79",
+        "cash": 10,
+        "bonus": 60,
+        "bookclose": "2023-01-04 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2077/78",
+        "cash": 25,
+        "bonus": 75,
+        "bookclose": "2021-12-31 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2076/77",
+        "cash": 50,
+        "bonus": 50,
+        "bookclose": "2021-01-01 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2075/76",
+        "cash": 52.63,
+        "bonus": 50,
+        "bookclose": "2019-12-01 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2075/76",
+        "cash": 68.42,
+        "bonus": 0,
+        "bookclose": "2019-05-31 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2074/75",
+        "cash": 21.05,
+        "bonus": 0,
+        "bookclose": "2018-12-19 00:00:00"
+      },
+      {
+        "ticker": "HDL",
+        "fiscal_year": "2073/74",
+        "cash": 21.05,
+        "bonus": 0,
+        "bookclose": "2017-12-04 00:00:00"
+      }
+    ]
+  },
+  "GBBL": {
+    "symbol": "GBBL",
+    "success": true,
+    "ltp": 436.3,
+    "ticker_name": "Garima Bikas Bank",
+    "latest": {
+      "ticker": "GBBL",
+      "fiscal_year": "2081/82",
+      "cash": 4.53,
+      "bonus": 6,
+      "bookclose": "2025-11-04 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2081/82",
+        "cash": 4.53,
+        "bonus": 6,
+        "bookclose": "2025-11-04 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2080/81",
+        "cash": 5,
+        "bonus": 0,
+        "bookclose": "2025-01-02 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2079/80",
+        "cash": 0.5,
+        "bonus": 9.5,
+        "bookclose": "2024-01-02 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2078/79",
+        "cash": 1.5,
+        "bonus": 13,
+        "bookclose": "2022-12-23 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2077/78",
+        "cash": 0,
+        "bonus": 16,
+        "bookclose": "2022-03-18 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2076/77",
+        "cash": 0.71,
+        "bonus": 13.5,
+        "bookclose": "2021-01-25 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2075/76",
+        "cash": 0.85,
+        "bonus": 16.15,
+        "bookclose": "2019-11-29 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2074/75",
+        "cash": 3.75,
+        "bonus": 10,
+        "bookclose": "2018-09-28 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2073/74",
+        "cash": 0,
+        "bonus": 15,
+        "bookclose": "2017-12-31 00:00:00"
+      },
+      {
+        "ticker": "GBBL",
+        "fiscal_year": "2072/73",
+        "cash": 0,
+        "bonus": 20,
+        "bookclose": "2017-02-05 00:00:00"
+      }
+    ]
+  },
+  "HRL": {
+    "symbol": "HRL",
+    "success": true,
+    "ltp": 519.9,
+    "ticker_name": "Himalayan Reinsurance Limited",
+    "latest": {
+      "ticker": "HRL",
+      "fiscal_year": "2080/81",
+      "cash": 0.24,
+      "bonus": 4.5,
+      "bookclose": "2025-05-25 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "HRL",
+        "fiscal_year": "2080/81",
+        "cash": 0.24,
+        "bonus": 4.5,
+        "bookclose": "2025-05-25 00:00:00"
+      },
+      {
+        "ticker": "HRL",
+        "fiscal_year": "2079/80",
+        "cash": 0.21,
+        "bonus": 4,
+        "bookclose": "2024-02-19 00:00:00"
+      }
+    ]
+  },
+  "EBL": {
+    "symbol": "EBL",
+    "success": true,
+    "ltp": 716.1,
+    "ticker_name": "Everest Bank",
+    "latest": {
+      "ticker": "EBL",
+      "fiscal_year": "2082/83",
+      "cash": 10,
+      "bonus": 5,
+      "bookclose": null
+    },
+    "history": [
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2082/83",
+        "cash": 10,
+        "bonus": 5,
+        "bookclose": null
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2081/82",
+        "cash": 14,
+        "bonus": 6,
+        "bookclose": "2025-10-10 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2080/81",
+        "cash": 5.53,
+        "bonus": 10,
+        "bookclose": "2024-09-24 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2079/80",
+        "cash": 10.53,
+        "bonus": 10,
+        "bookclose": "2023-10-03 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2078/79",
+        "cash": 7.68,
+        "bonus": 13,
+        "bookclose": "2022-11-29 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2077/78",
+        "cash": 4.32,
+        "bonus": 6,
+        "bookclose": "2021-12-03 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2076/77",
+        "cash": 5.53,
+        "bonus": 5,
+        "bookclose": "2020-12-25 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2075/76",
+        "cash": 20,
+        "bonus": 5,
+        "bookclose": "2019-12-20 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2074/75",
+        "cash": 20,
+        "bonus": 0,
+        "bookclose": "2018-12-12 00:00:00"
+      },
+      {
+        "ticker": "EBL",
+        "fiscal_year": "2073/74",
+        "cash": 1.74,
+        "bonus": 33,
+        "bookclose": "2017-12-28 00:00:00"
+      }
+    ]
+  },
+  "SCB": {
+    "symbol": "SCB",
+    "success": true,
+    "ltp": 645.5,
+    "ticker_name": "Standard Chartered Bank",
+    "latest": {
+      "ticker": "SCB",
+      "fiscal_year": "2081/82",
+      "cash": 19,
+      "bonus": 0,
+      "bookclose": "2025-12-02 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2081/82",
+        "cash": 19,
+        "bonus": 0,
+        "bookclose": "2025-12-02 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2080/81",
+        "cash": 19,
+        "bonus": 6.5,
+        "bookclose": "2024-11-27 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2079/80",
+        "cash": 19,
+        "bonus": 0,
+        "bookclose": "2023-11-23 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2078/79",
+        "cash": 16.15,
+        "bonus": 0,
+        "bookclose": "2022-11-23 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2077/78",
+        "cash": 3.06,
+        "bonus": 10,
+        "bookclose": "2021-11-26 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2076/77",
+        "cash": 4.84,
+        "bonus": 7,
+        "bookclose": "2020-12-24 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2075/76",
+        "cash": 22.5,
+        "bonus": 0,
+        "bookclose": "2019-11-25 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2074/75",
+        "cash": 17.5,
+        "bonus": 0,
+        "bookclose": "2019-01-13 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2073/74",
+        "cash": 5.26,
+        "bonus": 100,
+        "bookclose": "2017-12-31 00:00:00"
+      },
+      {
+        "ticker": "SCB",
+        "fiscal_year": "2072/73",
+        "cash": 0,
+        "bonus": 33.33,
+        "bookclose": "2016-12-07 00:00:00"
+      }
+    ]
+  },
+  "SONA": {
+    "symbol": "SONA",
+    "success": true,
+    "ltp": 404,
+    "ticker_name": "Sonapur Minerals And Oil Limited",
+    "latest": null,
+    "history": []
+  },
+  "NTC": {
+    "symbol": "NTC",
+    "success": true,
+    "ltp": 881,
+    "ticker_name": "Nepal Doorsanchar Company",
+    "latest": {
+      "ticker": "NTC",
+      "fiscal_year": "2081/82",
+      "cash": 30,
+      "bonus": 0,
+      "bookclose": "2026-01-04 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2081/82",
+        "cash": 30,
+        "bonus": 0,
+        "bookclose": "2026-01-04 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2080/81",
+        "cash": 30,
+        "bonus": 0,
+        "bookclose": "2025-01-02 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2079/80",
+        "cash": 40,
+        "bonus": 0,
+        "bookclose": "2024-01-04 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2078/79",
+        "cash": 40,
+        "bonus": 0,
+        "bookclose": "2023-01-02 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2077/78",
+        "cash": 20,
+        "bonus": 20,
+        "bookclose": "2022-03-25 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2076/77",
+        "cash": 40,
+        "bonus": 0,
+        "bookclose": "2021-03-12 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2075/76",
+        "cash": 45,
+        "bonus": 0,
+        "bookclose": "2019-12-31 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2074/75",
+        "cash": 55,
+        "bonus": 0,
+        "bookclose": "2018-12-30 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2073/74",
+        "cash": 55,
+        "bonus": 0,
+        "bookclose": "2017-12-31 00:00:00"
+      },
+      {
+        "ticker": "NTC",
+        "fiscal_year": "2072/73",
+        "cash": 51,
+        "bonus": 0,
+        "bookclose": "2017-02-26 00:00:00"
+      }
+    ]
+  },
+  "MFIL": {
+    "symbol": "MFIL",
+    "success": true,
+    "ltp": 730,
+    "ticker_name": "Manjushree Financial Institution",
+    "latest": {
+      "ticker": "MFIL",
+      "fiscal_year": "2081/82",
+      "cash": 15,
+      "bonus": 0,
+      "bookclose": "2025-10-08 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2081/82",
+        "cash": 15,
+        "bonus": 0,
+        "bookclose": "2025-10-08 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2080/81",
+        "cash": 6.35,
+        "bonus": 0,
+        "bookclose": "2024-12-26 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2079/80",
+        "cash": 5.263,
+        "bonus": 0,
+        "bookclose": "2023-12-27 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2070/71",
+        "cash": 7.5,
+        "bonus": 0,
+        "bookclose": "2014-10-09 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2077/78",
+        "cash": 6,
+        "bonus": 40,
+        "bookclose": "2021-12-30 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2076/77",
+        "cash": 5.5,
+        "bonus": 18,
+        "bookclose": "2020-12-30 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2075/76",
+        "cash": 9.8,
+        "bonus": 1.75,
+        "bookclose": "2019-12-31 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2074/75",
+        "cash": 2.9,
+        "bonus": 0,
+        "bookclose": "2018-12-18 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2073/74",
+        "cash": 0.3008,
+        "bonus": 5.71,
+        "bookclose": "2018-06-18 00:00:00"
+      },
+      {
+        "ticker": "MFIL",
+        "fiscal_year": "2074/75",
+        "cash": 0,
+        "bonus": 0,
+        "bookclose": "2018-02-21 00:00:00"
+      }
+    ]
+  },
+  "CBBL": {
+    "symbol": "CBBL",
+    "success": true,
+    "ltp": 932,
+    "ticker_name": "Chhimek Laghubitta Bikas Bank",
+    "latest": {
+      "ticker": "CBBL",
+      "fiscal_year": "2081/82",
+      "cash": 12.5,
+      "bonus": 12.5,
+      "bookclose": "2025-12-31 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2081/82",
+        "cash": 12.5,
+        "bonus": 12.5,
+        "bookclose": "2025-12-31 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2080/81",
+        "cash": 7,
+        "bonus": 8,
+        "bookclose": "2024-12-31 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2079/80",
+        "cash": 10,
+        "bonus": 5,
+        "bookclose": "2024-01-02 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2078/79",
+        "cash": 3.26,
+        "bonus": 22,
+        "bookclose": "2023-03-09 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2077/78",
+        "cash": 3,
+        "bonus": 27,
+        "bookclose": "2021-12-22 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2076/77",
+        "cash": 7,
+        "bonus": 22,
+        "bookclose": "2020-12-30 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2075/76",
+        "cash": 17.2168,
+        "bonus": 27.1186,
+        "bookclose": "2019-12-02 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2074/75",
+        "cash": 22,
+        "bonus": 18,
+        "bookclose": "2019-04-29 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2073/74",
+        "cash": 25.11,
+        "bonus": 19.89,
+        "bookclose": "2017-10-23 00:00:00"
+      },
+      {
+        "ticker": "CBBL",
+        "fiscal_year": "2072/73",
+        "cash": 12.7,
+        "bonus": 40,
+        "bookclose": "2016-12-11 00:00:00"
+      }
+    ]
+  },
+  "SKBBL": {
+    "symbol": "SKBBL",
+    "success": true,
+    "ltp": 741,
+    "ticker_name": "Sana Kisan Bikas Bank",
+    "latest": {
+      "ticker": "SKBBL",
+      "fiscal_year": "2081/82",
+      "cash": 0.75,
+      "bonus": 14.25,
+      "bookclose": "2025-12-24 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2081/82",
+        "cash": 0.75,
+        "bonus": 14.25,
+        "bookclose": "2025-12-24 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2080/81",
+        "cash": 0.7,
+        "bonus": 13.3,
+        "bookclose": "2025-01-01 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2079/80",
+        "cash": 0.75,
+        "bonus": 14.25,
+        "bookclose": "2024-01-01 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2078/79",
+        "cash": 1.3684,
+        "bonus": 26,
+        "bookclose": "2023-03-12 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2077/78",
+        "cash": 1.315,
+        "bonus": 25,
+        "bookclose": "2021-12-20 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2076/77",
+        "cash": 1.315,
+        "bonus": 25,
+        "bookclose": "2020-12-31 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2075/76",
+        "cash": 1.434,
+        "bonus": 27.25,
+        "bookclose": "2019-12-30 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2074/75",
+        "cash": 1.317,
+        "bonus": 25,
+        "bookclose": "2019-01-17 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2073/74",
+        "cash": 1.316,
+        "bonus": 25,
+        "bookclose": "2017-11-26 00:00:00"
+      },
+      {
+        "ticker": "SKBBL",
+        "fiscal_year": "2072/73",
+        "cash": 1.316,
+        "bonus": 25,
+        "bookclose": "2016-12-29 00:00:00"
+      }
+    ]
+  },
+  "MNBBL": {
+    "symbol": "MNBBL",
+    "success": true,
+    "ltp": 356.9,
+    "ticker_name": "Muktinath Bikas Bank",
+    "latest": {
+      "ticker": "MNBBL",
+      "fiscal_year": "2081/82",
+      "cash": 4.67,
+      "bonus": 13.53,
+      "bookclose": "2025-10-17 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2081/82",
+        "cash": 4.67,
+        "bonus": 13.53,
+        "bookclose": "2025-10-17 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2079/80",
+        "cash": 0.5132,
+        "bonus": 9.75,
+        "bookclose": "2024-01-04 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2078/79",
+        "cash": 0.7105,
+        "bonus": 13.5,
+        "bookclose": "2023-01-04 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2077/78",
+        "cash": 0.925,
+        "bonus": 17.575,
+        "bookclose": "2021-12-01 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2076/77",
+        "cash": 4.2574,
+        "bonus": 11.25,
+        "bookclose": "2020-12-28 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2075/76",
+        "cash": 0.93,
+        "bonus": 17.6,
+        "bookclose": "2019-12-09 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2074/75",
+        "cash": 0.96,
+        "bonus": 18.25,
+        "bookclose": "2018-12-04 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2073/74",
+        "cash": 1.05,
+        "bonus": 20,
+        "bookclose": "2017-12-22 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2072/73",
+        "cash": 0,
+        "bonus": 34,
+        "bookclose": "2016-11-09 00:00:00"
+      },
+      {
+        "ticker": "MNBBL",
+        "fiscal_year": "2071/72",
+        "cash": 1.63,
+        "bonus": 31,
+        "bookclose": "2015-12-28 00:00:00"
+      }
+    ]
+  },
+  "CFCL": {
+    "symbol": "CFCL",
+    "success": true,
+    "ltp": 598.4,
+    "ticker_name": "Central Finance",
+    "latest": {
+      "ticker": "CFCL",
+      "fiscal_year": "2078/79",
+      "cash": 5,
+      "bonus": 0,
+      "bookclose": "2023-01-01 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2078/79",
+        "cash": 5,
+        "bonus": 0,
+        "bookclose": "2023-01-01 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2077/78",
+        "cash": 3.3,
+        "bonus": 7.7,
+        "bookclose": "2022-01-02 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2076/77",
+        "cash": 3,
+        "bonus": 7,
+        "bookclose": "2021-01-25 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2075/76",
+        "cash": 7,
+        "bonus": 0,
+        "bookclose": "2020-02-11 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2074/75",
+        "cash": 7,
+        "bonus": 0,
+        "bookclose": "2019-03-07 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2073/74",
+        "cash": 0,
+        "bonus": 8.76,
+        "bookclose": "2018-10-31 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2072/73",
+        "cash": 1.74,
+        "bonus": 22.5,
+        "bookclose": "2017-06-15 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2071/72",
+        "cash": 1.74,
+        "bonus": 33,
+        "bookclose": "2016-01-03 00:00:00"
+      },
+      {
+        "ticker": "CFCL",
+        "fiscal_year": "2069/70",
+        "cash": 0,
+        "bonus": 10,
+        "bookclose": "2014-07-03 00:00:00"
+      }
+    ]
+  },
+  "NLIC": {
+    "symbol": "NLIC",
+    "success": true,
+    "ltp": 696,
+    "ticker_name": "Nepal Life Insurance",
+    "latest": {
+      "ticker": "NLIC",
+      "fiscal_year": "2081/82",
+      "cash": 16.05,
+      "bonus": 5,
+      "bookclose": "2025-12-22 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2081/82",
+        "cash": 16.05,
+        "bonus": 5,
+        "bookclose": "2025-12-22 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2080/81",
+        "cash": 11.05,
+        "bonus": 10,
+        "bookclose": "2025-01-23 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2079/80",
+        "cash": 21.05,
+        "bonus": 0,
+        "bookclose": "2024-06-18 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2077/78",
+        "cash": 15.7895,
+        "bonus": 0,
+        "bookclose": "2022-11-04 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2076/77",
+        "cash": 0.7368,
+        "bonus": 14,
+        "bookclose": "2022-03-21 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2075/76",
+        "cash": 20,
+        "bonus": 31,
+        "bookclose": "2021-01-27 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2074/75",
+        "cash": 23.5,
+        "bonus": 25,
+        "bookclose": "2019-05-02 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2073/74",
+        "cash": 28.53,
+        "bonus": 42,
+        "bookclose": "2018-03-28 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2072/73",
+        "cash": 1.32,
+        "bonus": 25,
+        "bookclose": "2017-03-13 00:00:00"
+      },
+      {
+        "ticker": "NLIC",
+        "fiscal_year": "2071/72",
+        "cash": 1.32,
+        "bonus": 25,
+        "bookclose": "2016-04-28 00:00:00"
+      }
+    ]
+  },
+  "SALICO": {
+    "symbol": "SALICO",
+    "success": true,
+    "ltp": 526.79,
+    "ticker_name": "Sagarmatha Lumbini Insurance Co. Limited",
+    "latest": {
+      "ticker": "SALICO",
+      "fiscal_year": "2081/82",
+      "cash": 15,
+      "bonus": 0,
+      "bookclose": "2026-01-04 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2081/82",
+        "cash": 15,
+        "bonus": 0,
+        "bookclose": "2026-01-04 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2080/81",
+        "cash": 15,
+        "bonus": 0,
+        "bookclose": "2025-04-30 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2079/80",
+        "cash": 5,
+        "bonus": 0,
+        "bookclose": "2024-03-26 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2078/79",
+        "cash": 0.6526,
+        "bonus": 12.4,
+        "bookclose": "2023-02-10 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2077/78",
+        "cash": 1.0526,
+        "bonus": 20,
+        "bookclose": "2022-04-29 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2076/77",
+        "cash": 0.5789,
+        "bonus": 11,
+        "bookclose": "2021-07-01 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2074/75",
+        "cash": 0,
+        "bonus": 86,
+        "bookclose": "2019-06-16 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2072/73",
+        "cash": 1.1579,
+        "bonus": 22,
+        "bookclose": "2016-12-28 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2071/72",
+        "cash": 1.25,
+        "bonus": 23.75,
+        "bookclose": "2016-06-30 00:00:00"
+      },
+      {
+        "ticker": "SALICO",
+        "fiscal_year": "2070/71",
+        "cash": 0.79,
+        "bonus": 15,
+        "bookclose": "2015-07-01 00:00:00"
+      }
+    ]
+  },
+  "NIBLPF": {
+    "symbol": "NIBLPF",
+    "success": true,
+    "ltp": 0,
+    "ticker_name": "NIBLPF",
+    "latest": {
+      "ticker": "NIBLPF",
+      "fiscal_year": "2079/80",
+      "cash": 6.8,
+      "bonus": 0,
+      "bookclose": "2023-09-19 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "NIBLPF",
+        "fiscal_year": "2079/80",
+        "cash": 6.8,
+        "bonus": 0,
+        "bookclose": "2023-09-19 00:00:00"
+      },
+      {
+        "ticker": "NIBLPF",
+        "fiscal_year": "2077/78",
+        "cash": 4.2,
+        "bonus": 0,
+        "bookclose": "2022-09-14 00:00:00"
+      },
+      {
+        "ticker": "NIBLPF",
+        "fiscal_year": "2078/79",
+        "cash": 50,
+        "bonus": 0,
+        "bookclose": "2021-08-13 00:00:00"
+      }
+    ]
+  },
+  "STC": {
+    "symbol": "STC",
+    "success": true,
+    "ltp": 5206.1,
+    "ticker_name": "Salt Trading Corporation",
+    "latest": {
+      "ticker": "STC",
+      "fiscal_year": "2081/82",
+      "cash": 0.5,
+      "bonus": 9.5,
+      "bookclose": "2026-05-27 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "STC",
+        "fiscal_year": "2081/82",
+        "cash": 0.5,
+        "bonus": 9.5,
+        "bookclose": "2026-05-27 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2080/81",
+        "cash": 10,
+        "bonus": 0,
+        "bookclose": "2025-03-14 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2079/80",
+        "cash": 0.79,
+        "bonus": 15,
+        "bookclose": "2024-03-22 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2078/79",
+        "cash": 5,
+        "bonus": 10,
+        "bookclose": "2023-03-10 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2077/78",
+        "cash": 0.526,
+        "bonus": 10,
+        "bookclose": "2022-03-29 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2076/77",
+        "cash": 5,
+        "bonus": 20,
+        "bookclose": "2021-10-19 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2075/76",
+        "cash": 10,
+        "bonus": 25,
+        "bookclose": "2020-11-30 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2074/75",
+        "cash": 10,
+        "bonus": 25,
+        "bookclose": "2019-03-08 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2073/74",
+        "cash": 10,
+        "bonus": 25,
+        "bookclose": "2018-02-20 00:00:00"
+      },
+      {
+        "ticker": "STC",
+        "fiscal_year": "2072/73",
+        "cash": 5,
+        "bonus": 20,
+        "bookclose": "2017-06-28 00:00:00"
+      }
+    ]
+  },
+  "SHL": {
+    "symbol": "SHL",
+    "success": true,
+    "ltp": 502,
+    "ticker_name": "Soaltee Hotel",
+    "latest": {
+      "ticker": "SHL",
+      "fiscal_year": "2081/82",
+      "cash": 16.5789,
+      "bonus": 15,
+      "bookclose": "2025-11-21 00:00:00"
+    },
+    "history": [
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2081/82",
+        "cash": 16.5789,
+        "bonus": 15,
+        "bookclose": "2025-11-21 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2080/81",
+        "cash": 26.8421,
+        "bonus": 10,
+        "bookclose": "2024-11-28 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2079/80",
+        "cash": 26.5789,
+        "bonus": 5,
+        "bookclose": "2023-12-21 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2078/79",
+        "cash": 21.315,
+        "bonus": 5,
+        "bookclose": "2022-12-22 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2075/76",
+        "cash": 11.3157,
+        "bonus": 15,
+        "bookclose": "2019-12-11 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2074/75",
+        "cash": 16.3158,
+        "bonus": 10,
+        "bookclose": "2018-12-12 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2073/74",
+        "cash": 6.0526,
+        "bonus": 15,
+        "bookclose": "2017-11-20 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2072/73",
+        "cash": 11.0526,
+        "bonus": 10,
+        "bookclose": "2016-12-12 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2071/72",
+        "cash": 65.8,
+        "bonus": 25,
+        "bookclose": "2015-12-16 00:00:00"
+      },
+      {
+        "ticker": "SHL",
+        "fiscal_year": "2070/71",
+        "cash": 17.89,
+        "bonus": 40,
+        "bookclose": "2014-12-14 00:00:00"
+      }
+    ]
+  }
+}
