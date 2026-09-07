@@ -156,7 +156,7 @@ export const GeminiTechnicalSummary: React.FC<GeminiTechnicalSummaryProps> = ({
                         report.marketBias
                       )}`}
                     >
-                      {report.marketBias.replace('_', ' ')}
+                      {report?.marketBias?.replace(/_/g, ' ') || 'NEUTRAL'}
                     </span>
                     <span className="text-xs text-slate-400 font-mono">
                       {stock.symbol} • NPR {stock.currentPrice.toLocaleString()} ({stock.change >= 0 ? '+' : ''}

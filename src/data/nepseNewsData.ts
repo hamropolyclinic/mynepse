@@ -784,7 +784,7 @@ export function generateTriFactorTrajectorySynthesis(
     risksFromNews.push(`Tightening in short-term secondary market turnover if NRB updates margin loan policy ceilings.`);
   }
 
-  const confluenceSummary = `${stock.symbol} demonstrates a ${trajectoryBias.replace('_', ' ')} trajectory setup. Technical momentum (${technicalBias}, score: ${techScore > 0 ? '+' : ''}${techScore}) is backed by solid fundamental valuation (${fundamentalBias}, score: ${fundScore > 0 ? '+' : ''}${fundScore}) and reinforced by positive media sentiment across ${bullishPortals} out of ${newsReports.length} reviewed portals (Score: ${newsScore > 0 ? '+' : ''}${newsScore}).`;
+  const confluenceSummary = `${stock?.symbol || 'STOCK'} demonstrates a ${(trajectoryBias || '').replace(/_/g, ' ')} trajectory setup. Technical momentum (${technicalBias || 'NEUTRAL'}, score: ${techScore > 0 ? '+' : ''}${techScore}) is backed by solid fundamental valuation (${fundamentalBias || 'NEUTRAL'}, score: ${fundScore > 0 ? '+' : ''}${fundScore}) and reinforced by positive media sentiment across ${bullishPortals} out of ${newsReports?.length || 0} reviewed portals (Score: ${newsScore > 0 ? '+' : ''}${newsScore}).`;
 
   return {
     technicalFactor: {

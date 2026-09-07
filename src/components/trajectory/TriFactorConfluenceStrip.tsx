@@ -35,7 +35,7 @@ export const TriFactorConfluenceStrip: React.FC<TriFactorConfluenceStripProps> =
         return (
           <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold bg-emerald-950/80 border border-emerald-500/40 text-emerald-400">
             <ArrowUpRight className="w-3 h-3" />
-            {bias.replace('_', ' ')}
+            {bias?.replace(/_/g, ' ') || 'NEUTRAL'}
           </span>
         );
       case 'STRONG_BEARISH':
@@ -43,7 +43,7 @@ export const TriFactorConfluenceStrip: React.FC<TriFactorConfluenceStripProps> =
         return (
           <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold bg-rose-950/80 border border-rose-500/40 text-rose-400">
             <ArrowDownRight className="w-3 h-3" />
-            {bias.replace('_', ' ')}
+            {bias?.replace(/_/g, ' ') || 'NEUTRAL'}
           </span>
         );
       default:

@@ -76,7 +76,7 @@ export const MarketSentimentGauge: React.FC<MarketSentimentGaugeProps> = ({
           <div>
             <span className="text-[10px] font-mono text-slate-400 block uppercase">Sentiment Velocity</span>
             <span className="text-xs font-mono font-bold text-white">
-              {sentimentVelocity.replace('_', ' ')}
+              {sentimentVelocity?.replace(/_/g, ' ') || 'NEUTRAL'}
             </span>
           </div>
         </div>
