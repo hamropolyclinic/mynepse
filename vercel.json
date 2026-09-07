@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/nepse/:path*",
+      "destination": "https://nepse-data-api.vercel.app/api/:path*"
+    }
+  ]
+}
