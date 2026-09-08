@@ -1317,10 +1317,10 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({ data, symbol
             {showSR && srLevels && (
               <>
                 {/* R2 Badge */}
-                <g transform={`translate(2, ${getPriceY(srLevels.r2) - 8})`}>
+                <g transform={`translate(2, ${getPriceY(srLevels?.r2 ?? 0) - 8})`}>
                   <rect width={58} height={16} rx={3} fill="#881337" stroke="#f43f5e" strokeWidth="1" />
                   <text x={29} y={11} fill="#fecdd3" fontSize="9" fontFamily="monospace" fontWeight="bold" textAnchor="middle">
-                    R2 {srLevels.r2.toFixed(0)}
+                    R2 {srLevels?.r2 != null ? srLevels.r2.toFixed(0) : '--'}
                   </text>
                 </g>
 
