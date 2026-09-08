@@ -167,7 +167,7 @@ export const GeminiTechnicalSummary: React.FC<GeminiTechnicalSummaryProps> = ({
                     {report.summaryHeadline}
                   </h3>
                   <p className="text-xs text-slate-300/90 leading-relaxed max-w-3xl">
-                    {report.trendAnalysis.details}
+                    {report?.trendAnalysis?.details || report?.summary || 'Technical summary analysis pending...'}
                   </p>
                 </div>
 
