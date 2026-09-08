@@ -978,7 +978,7 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({ data, symbol
               {showSR && srLevels && (
                 <g className="transition-opacity duration-200">
                   {/* Resistance Band Area between R1 and R2 */}
-                  {srLevels.r2 > srLevels.r1 && (
+                  {srLevels?.r2 != null && srLevels?.r1 != null && srLevels.r2 > srLevels.r1 && (
                     <rect
                       x={0}
                       y={getPriceY(srLevels.r2)}
