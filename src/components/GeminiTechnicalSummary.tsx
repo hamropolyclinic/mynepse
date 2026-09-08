@@ -194,7 +194,7 @@ export const GeminiTechnicalSummary: React.FC<GeminiTechnicalSummaryProps> = ({
               </div>
 
               {/* ShareSansar & Hamroshare Cross-Reference Callout */}
-              {report.trendAnalysis.shareSansarHamroshareNote && (
+              {report?.trendAnalysis?.shareSansarHamroshareNote && (
                 <div className="bg-indigo-950/20 border border-indigo-500/20 rounded-lg p-3 text-xs text-indigo-300/90 flex items-start gap-2.5">
                   <ExternalLink className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
                   <div>
