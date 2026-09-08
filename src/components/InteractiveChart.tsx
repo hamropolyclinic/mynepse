@@ -484,8 +484,8 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({ data, symbol
 
     // Factor in S/R lines if active
     if (showSR && srLevels) {
-      if (srLevels.s2 < min) min = srLevels.s2;
-      if (srLevels.r2 > max) max = srLevels.r2;
+      if (srLevels?.s2 != null && srLevels.s2 < min) min = srLevels.s2;
+      if (srLevels?.r2 != null && srLevels.r2 > max) max = srLevels.r2;
     }
 
     const pad = (max - min) * 0.05 || 10;
