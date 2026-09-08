@@ -875,7 +875,7 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({ data, symbol
                 Structural S/R:
               </span>
               <span className="px-2 py-0.5 rounded bg-rose-950/80 border border-rose-500/40 text-rose-300 font-bold">
-                R2: Rs. {srLevels.r2.toFixed(1)} (Major)
+                R2: Rs. {srLevels?.r2 != null ? srLevels.r2.toFixed(1) : '--'} (Major)
               </span>
               <span className="px-2 py-0.5 rounded bg-rose-950/50 border border-rose-500/30 text-rose-300 font-bold">
                 R1: Rs. {srLevels.r1.toFixed(1)}
