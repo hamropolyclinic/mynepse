@@ -463,7 +463,7 @@ export const GeminiTechnicalSummary: React.FC<GeminiTechnicalSummaryProps> = ({
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="text-[11px] font-semibold text-slate-400">Target Corridor:</span>
                     <span className="text-xs font-mono text-slate-300 font-medium">
-                      R1 NPR {report.floorPivotGrid.r1} • R2 NPR {report.floorPivotGrid.r2}
+                      R1 NPR {report?.floorPivotGrid?.r1 ?? '--'} • R2 NPR {report?.floorPivotGrid?.r2 ?? '--'}
                     </span>
                   </div>
                 </div>
