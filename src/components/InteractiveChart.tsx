@@ -981,9 +981,9 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({ data, symbol
                   {srLevels?.r2 != null && srLevels?.r1 != null && srLevels.r2 > srLevels.r1 && (
                     <rect
                       x={0}
-                      y={getPriceY(srLevels.r2)}
+                      y={getPriceY(srLevels?.r2 ?? 0)}
                       width={svgTotalWidth}
-                      height={Math.max(2, getPriceY(srLevels.r1) - getPriceY(srLevels.r2))}
+                      height={Math.max(2, getPriceY(srLevels.r1) - getPriceY(srLevels?.r2 ?? 0))}
                       fill="url(#resZoneGradient)"
                       opacity="0.9"
                     />
@@ -1004,9 +1004,9 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({ data, symbol
                   {/* R2 Major Resistance Line */}
                   <line
                     x1={0}
-                    y1={getPriceY(srLevels.r2)}
+                    y1={getPriceY(srLevels?.r2 ?? 0)}
                     x2={svgTotalWidth}
-                    y2={getPriceY(srLevels.r2)}
+                    y2={getPriceY(srLevels?.r2 ?? 0)}
                     stroke="#f43f5e"
                     strokeDasharray="6 4"
                     strokeWidth="1.5"
